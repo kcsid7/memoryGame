@@ -1,0 +1,38 @@
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+#gamewin {
+  display: none;
+}
+
+.twoCards {
+  pointer-events: none;
+}
+
+#gamehead {
+  display: flex;
+  flex-direction: column;
+  align-items : center;
+}
+
+#gamemode {
+  display: flex;
+  flex-direction: column;
+  align-items : center
+}
+
+#game {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+body {
+  background-color: snow;
+}
